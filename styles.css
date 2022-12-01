@@ -1,0 +1,732 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    background: url(Images/bgg2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    /* width: 160px;
+    margin-top: 10px;
+    margin-left: 100px; */
+    font-family: 'Bodoni Moda', serif;
+    font-size: 60px;
+    font-weight: 300;
+    color: black;
+    margin: 0px 0px 0px 20px;
+    /* border-bottom: 2px solid black; */
+    /* text-decoration: overline; */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navsec {
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.navlink {
+    font-family: 'Figtree', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: black;
+    padding: 10px 10px 0px 10px;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.navlink:hover {
+    transition: ease-out 0.3s;
+    border-bottom: 3px solid silver;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+}
+
+.headingh1 {
+    height: 90vh;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.headingh1 h1 {
+    font-family: 'Figtree', sans-serif;
+    font-size: 65px;
+    font-weight: 700;
+    padding: 60px 0px 0px 50px;
+}
+
+.headingh1 span {
+    font-family: 'Figtree', sans-serif;
+    font-size: 70px;
+    font-weight: 800;
+    color: #E23E57;
+    text-decoration: underline;
+}
+
+.headingh1 h2 {
+    font-family: 'Figtree', sans-serif;
+    font-size: 20px;
+    padding: 30px 0px 0px 55px;
+    color: black;
+    font-weight: 500;
+}
+
+.travelogue {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0px 20px 0px;
+}
+
+.travelogue-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 0px 30px 0px;
+}
+
+.travelogue-text h2 {
+    font-family: 'EB Garamond', serif;
+    font-size: 70px;
+    background-image: linear-gradient(to bottom,
+            white 0%,
+            white 60%,
+            lavender 60%,
+            lavender 90%,
+            white 90%,
+            white 100%);
+    width: 700px;
+    text-align: center;
+}
+
+.travelogue-text p {
+    text-align: center;
+    font-family: 'Figtree', sans-serif;
+    font-size: 16px;
+    padding: 20px 0px 20px 0px;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+}
+
+.travelogue-image, .travelogue-image2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.travelogue-image div img {
+    padding: 60px 0px 0px 200px;
+    z-index: -1;
+}
+
+
+.travelogue-example {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 33vh;
+    width: 23vw;
+    background-color: #f4f4f4;
+    position:absolute;
+    margin: 50px 550px 0px 0px;
+}
+
+.travelogue-example2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 33vh;
+    width: 23vw;
+    background-color: lavender;
+    position:absolute;
+    /* margin: 50px 0 0px 900px; */
+    margin: 0px -800px 0px 0px;
+}
+
+.travelogue-example p, 
+.travelogue-example2 p{
+    font-family: 'Figtree', sans-serif;
+    font-size: 14px;
+    padding: 10px 0px 0px 20px;
+    font-weight: bold;
+}
+
+.travelogue-example h5, .travelogue-example2 h5 {
+    font-family: 'Figtree', sans-serif;
+    font-size: 30px;
+    padding: 0px 0px 0px 20px;
+}
+
+.travelogue-example a, .travelogue-example2 a {
+    text-decoration: none;
+    font-family: 'Figtree', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    padding: 0px 0px 20px 20px;
+    text-decoration: underline;
+}
+
+.travelogue-example a:hover, .travelogue-example2 a:hover {
+    transition: ease 0.3s;
+}
+
+.work-title-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.work-title {
+    font-family: 'EB Garamond', serif;
+    font-size: 58px;
+    text-align: center;
+    margin: 50px 0px 0px 0px;
+    background-image: linear-gradient(to bottom,
+            white 0%,
+            white 40%,
+            #fbd7d7 40%,
+            #f8d2d2 70%,
+            white 70%,
+            white 100%);
+    width: 800px;
+    display: inline-block;
+    padding-bottom: 50px;
+}
+
+.working-model {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 70px;
+    padding: 30px 0px 0px 0px;
+}
+
+.work-image {
+    height: 380px;
+    width: 460px;
+    background-image: url(/Images/keys.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 3px;
+}
+
+.work-steps {
+    height: 380px;
+    width: 490px;
+    font-family: 'Figtree', sans-serif;
+}
+
+.work-steps ol {
+    list-style: none;
+}
+
+.work-steps h3 {
+    font-size: 22px;
+    padding: 26px 0px 10px 0px;
+}
+
+.work-steps-li1 h3::before {
+    content: '1. ';
+}
+
+.work-steps-li2 h3::before {
+    content: '2. ';
+}
+
+.work-steps-li3 h3::before {
+    content: '3. ';
+}
+
+.work-steps p {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0px 0px 0px 24px;
+}
+
+.work-steps-lines {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 86px 0px 30px 0px;
+}
+
+.endless {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.endless h4 {
+    font-family: 'EB Garamond', serif;
+    font-size: 56px;
+    padding: 30px 0px 10px 0px;
+}
+
+.endless h5 {
+    font-family: 'Figtree', sans-serif;
+    font-size: 22px;
+    padding: 5px 0px 10px 0px;
+}
+
+.endless p {
+    font-family: 'Figtree', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    width: 50vw;
+    padding: 10px 0px 50px 0px;
+}
+
+.car-book-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 220px;
+    background-color: #593cfb;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Figtree', sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+.car-book-btn:hover {
+    background-color: #6811fe;
+    transition: ease 0.4s;
+    box-shadow: 2px 2px 3px grey;
+}
+
+.browse-category {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 40px 0px 0px 0px;
+}
+
+.carousel-div-p p {
+    font-family: 'Figtree', sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    padding: 0px 0px 10px 0px;
+    border-bottom: 3px solid #593cfb;
+}
+
+.carousel-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+    height: 250px;
+}
+
+.carousel-item {
+    border-radius: 8px;
+    box-shadow: 1px 1px 2px grey;
+}
+
+.carousel-item:hover {
+    margin-bottom: 10px;
+    box-shadow: 3px 3px 5px grey;
+    transition: ease 0.4s;
+}
+
+.carousel-item a {
+    text-decoration: none;
+}
+
+.carousel-item img {
+    border-radius: 8px 8px 0px 0px;
+    height: 150px;
+    width: 200px;
+}
+
+.carousel-item p {
+    font-family: 'Figtree', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.why-dawn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    padding: 20px 0px 0px 0px;
+    background-color: #fbe9f6ca;
+    column-gap: 8vw;
+    margin-top: 50px;
+}
+
+.why-text {
+    width: 30vw;
+    padding: 20px 0px 0px 30px;
+}
+
+.why-text h4 {
+    font-family: 'EB Garamond', serif;
+    font-size: 60px;
+    padding: 10px 0px 20px 0px;
+}
+
+.why-text h5 {
+    font-family: 'Figtree', sans-serif;
+    font-size: 22px;
+    padding: 40px 0px 10px 0px;
+}
+
+.why-text h6 {
+    font-family: 'Figtree', sans-serif;
+    font-size: 24px;
+    padding: 0px 0px 20px 0px;
+}
+
+.why-text p {
+    font-family: 'Figtree', sans-serif;
+    font-size: 16;
+}
+
+.why-image img {
+    height: 340px;
+    width: 460px;
+    box-shadow: 20px -20px #50565a;
+}
+
+.last-why-p {
+    padding: 0px 0px 60px 0px;
+}
+
+.browse-destination {
+    padding: 100px 0px 0px 0px;
+}
+
+.browse-destination-p {
+    width: fit-content;
+}
+
+.you-covered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70vw;
+}
+
+.insurance-img img {
+    width: 500px;
+    height: 450px;
+}
+
+.insurance-text {
+    width: 55vw;
+    padding-bottom: 100px;
+}
+
+.insurance-text h4 {
+    font-family: 'EB Garamond', serif;
+    font-size: 50px;
+    text-align: center;
+    padding: 0px 0px 20px 0px;
+    border-bottom: 3px solid #593cfb;
+}
+
+.insurance-text h3 {
+    font-family: 'Figtree', sans-serif;
+    font-size: 20px;
+    padding: 28px 0px 20px 0px;
+}
+
+.insurance-text p {
+    font-family: 'Figtree', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.reviews-section {
+    background-color: lavender;
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 70vh;
+}
+
+.recent-reviews-h4 {
+    padding: 10px 0px 0px 0px;
+}
+
+.recent-reviews-h4 h4 {
+    font-family: 'Figtree', sans-serif;
+    font-size: 24px;
+    border-bottom: 3px solid #593cfb;
+}
+
+.review-card-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 40px;
+    padding-top: 50px;
+}
+
+.review-card {
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+    width: 26vw;
+    height: 250px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.review-card:hover {
+    box-shadow: 3px 3px 10px grey;
+    transition: ease 0.4s;
+}
+
+.people img {
+    height: 60px;
+    width: 60px;
+    border-radius: 100px;
+}
+
+.people {
+    padding: 30px 0px 0px 30px;
+}
+
+.stars span {
+    color: #593cfb;
+    padding: 3px;
+}
+
+.stars {
+    padding: 30px 0px 10px 0px;
+}
+
+.car-model-text {
+    text-decoration: none;
+    font-family: 'Figtree', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #593cfb;
+}
+
+.reviews {
+    padding: 0px 20px 0px 0px;
+}
+
+.reviews-p {
+    font-size: 16px;
+    font-family: 'Figtree', sans-serif;
+    line-height: 25px;
+    height: 130px;
+    padding: 8px 0px 0px 0px;
+}
+
+.reviews-p span {
+    font-weight: bold;
+}
+
+.people-name-p {
+    font-family: 'Figtree', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.review-date {
+    font-family: 'Figtree', sans-serif;
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+.slogan {
+    height: 25vh;
+    padding: 150px 0px 150px 0px;
+}
+
+.slogan h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 100px;
+    font-weight: 700;
+    text-align: center;
+    width: 1000px;
+    color: grey;
+    background-image: linear-gradient(to bottom,
+            white 0%,
+            white 60%,
+            #fbd7d7 60%,
+            #fbd7d7 100%);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    height: 70vh;
+}
+
+footer a:visited {
+    color: #593cfb;
+}
+
+.logo-foot {
+    height: 50vh;
+    padding: 0px 60px 0px 0px;
+}
+
+.logo-foot h1 {
+    font-family: 'Bodoni Moda', serif;
+    font-size: 150px;
+    font-weight: 500;
+    border-bottom: 3px solid grey;
+}
+
+.mail-p {
+    padding: 25px 0px 10px 0px;
+    font-family: 'Figtree', sans-serif;
+    font-size: 18px;
+}
+
+.copy-right-p {
+    font-family: 'Figtree', sans-serif;
+    font-size: 14px;
+}
+
+.terms-footer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 0px 0px 0px;
+    column-gap: 10px;
+}
+
+.terms-footer a {
+    font-family: 'Figtree', sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.terms-footer a:visited {
+    color: black;
+}
+
+.terms-footer a:hover {
+    text-decoration: underline;
+}
+
+.terms-footer p {
+    padding: 0px 20px 0px 0px;
+}
+
+.explore {
+    width: 15vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.explore h4 {
+    font-family: 'Figtree', sans-serif;
+    font-size: 22px;
+    border-bottom: 2px solid black;
+}
+
+.explore li {
+    list-style: none;
+    padding: 6px;
+}
+
+.explore li a {
+    font-family: 'Figtree', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.explore li a:hover {
+    text-decoration: underline;
+}
+
+/* ---------------- */
+
+.social-media li {
+    list-style: none;
+}
+
+.faa {
+    padding: 20px;
+    font-size: 30px;
+    width: fit-content;
+    text-align: center;
+    text-decoration: none;
+    background-color: #f4f4f4;
+    color: black;
+}
+
+.faa:visited {
+    color: black;
+}
+
+.faa:hover {
+    color: #50565a;
+    transition: ease 0.3s;
+    border-bottom: 2px solid black;
+}
+
+.store-handles-ul {
+    padding: 20px 0px 0px 0px;
+}
+
+.store-handles-ul:hover {
+    padding: 18px 0px 0px 0px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50vh;
+}
+
+.social-media ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ----------------- */
